@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecfccb;
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.money-img {
+  height: 60px;
+}
+.title {
+  font-size: 20px;
+  font-family: 'roboto';
+}
+.moneyDetails-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.income-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cffafe;
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.expense-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cbd5e1;
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
